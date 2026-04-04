@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  # The MongoDB Database
+  mongodb:
+    image: mongo:latest
+    container_name: smartshield-db
+    ports:
+      - "27017:27017"
+    networks:
+      - smartshield-network
+
+  # The Express Backend Server
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: smartshield-server
+    ports:
+      - "8080:5000"
+    environment:
+      - PORT=5000
+      - MONGO_URI=mongodb://mongodb:27017/smartshield
+    depends_on:
+      - mongodb
+    restart: always
+    networks:
+      - smartshield-network
+
+  # The React + Vite Frontend Client
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: smartshield-client
+    ports:
+      - "5173:5173"
+    depends_on:
+      - server
+    restart: always
+    environment:
+      - VITE_SERVER_URL=http://localhost:8080
+    networks:
+      - smartshield-network
+
+  # Optional: The AI Microservice (Python/Flask)
+  ai-service:
+    build:
+      context: ./ai-service
+      dockerfile: Dockerfile
+    container_name: smartshield-ai-service
+    ports:
+      - "5001:5001"
+    restart: always
+    networks:
+      - smartshield-network
+
+networks:
+  smartshield-network:
+    driver: bridge

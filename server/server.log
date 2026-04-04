@@ -1,0 +1,91 @@
+
+> server@1.0.0 predev
+> kill -9 $(lsof -t -i:5002) || true
+
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+
+> server@1.0.0 dev
+> nodemon index.js
+
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node index.js`[39m
+[dotenv@17.3.1] injecting env (6) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+Server running on port 5002
+MongoDB Connected: 127.0.0.1
+User connected: IXihsgFWeGTOa720AAAB
+User 69cd417cee7df802554c1435 joined room
+User connected: DjsEkMgeauBJL3c-AAAD
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+User disconnected: IXihsgFWeGTOa720AAAB
+User disconnected: DjsEkMgeauBJL3c-AAAD
+User connected: cCqD9EudH0CgpJH_AAAH
+User 69cd417cee7df802554c1435 joined room
+User connected: 4I8Niu2UZ3x8fyIyAAAJ
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+User disconnected: cCqD9EudH0CgpJH_AAAH
+User connected: x_tQX2jevkDZhQIjAAAL
+User 69cd417cee7df802554c1435 joined room
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini Key Loaded: AIzaSyDlFUBUvdcXk4BnDaxvvOv5wEOFn0EC4YM
+User message: Why is risk high?
+User disconnected: 4I8Niu2UZ3x8fyIyAAAJ
+User disconnected: x_tQX2jevkDZhQIjAAAL
+User connected: yNCxXPFOh3XiAGn2AAAP
+User 69cd417cee7df802554c1435 joined room
+User connected: XpWKMk9Mof9dhwQTAAAR
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+User disconnected: yNCxXPFOh3XiAGn2AAAP
+User disconnected: XpWKMk9Mof9dhwQTAAAR
+User connected: rtVdVJZ8n0hvNMsnAAAV
+User 69cd417cee7df802554c1435 joined room
+User connected: e7bo32eLPNt3wxl8AAAX
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+User disconnected: rtVdVJZ8n0hvNMsnAAAV
+User disconnected: e7bo32eLPNt3wxl8AAAX
+User connected: 6Q7cJQEI3KKceP8mAAAb
+User 69cd417cee7df802554c1435 joined room
+User connected: byobjK7iZC8gbkL8AAAd
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+User connected: HP8DncZ9s7jQNE4SAAAg
+User 69cd417cee7df802554c1435 joined room
+User disconnected: HP8DncZ9s7jQNE4SAAAg
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+User disconnected: 6Q7cJQEI3KKceP8mAAAb
+User connected: dwan39dPwgWFImKQAAAi
+User 69ccf6f29743f78598189e76 joined room
+User disconnected: dwan39dPwgWFImKQAAAi
+User connected: fnwvAfNr0TSlC2fpAAAk
+User 69ccf6f29743f78598189e76 joined room
+User disconnected: fnwvAfNr0TSlC2fpAAAk
+User disconnected: byobjK7iZC8gbkL8AAAd
+User connected: 5gBUtTBCp3lElikHAAAm
+User 69cd417cee7df802554c1435 joined room
+User connected: 7hvFpG5e23hdDcQ7AAAo
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+User disconnected: 5gBUtTBCp3lElikHAAAm
+User disconnected: 7hvFpG5e23hdDcQ7AAAo
+User connected: gxdS5FyRM1_851PRAAAs
+User 69cd417cee7df802554c1435 joined room
+User connected: ID4oE-e1oHuOIFgoAAAu
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini AI Quota/Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Gemini Key Loaded: AIzaSyDlFUBUvdcXk4BnDaxvvOv5wEOFn0EC4YM
+User message: hi
+Gemini Key Loaded: AIzaSyDlFUBUvdcXk4BnDaxvvOv5wEOFn0EC4YM
+User message: Why is risk high?
+User disconnected: gxdS5FyRM1_851PRAAAs
+User connected: -TZHK-Bmf00Dj3sEAAAw
+User 69ccf6f29743f78598189e76 joined room
+User disconnected: -TZHK-Bmf00Dj3sEAAAw
+User disconnected: ID4oE-e1oHuOIFgoAAAu

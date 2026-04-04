@@ -1,0 +1,10 @@
+{
+  "name": "smartshield-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Redirecting to backend...' && cd server && npm run dev",
+    "dev:all": "echo 'Starting backend & frontend...' && (cd server && npm run dev) & (cd client && npm run dev)",
+    "start": "cd server && npm start"
+  }
+}

@@ -1,0 +1,4 @@
+flask
+flask-cors
+gunicorn
+# Add other dependencies if they exist beyond standard Flask
